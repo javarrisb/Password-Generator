@@ -9,7 +9,7 @@ A website that randomly generates a password for security purposes
 * JavaScript
 
 ## Website 
-ja
+https://javarrisb.github.io/Password-Generator/
 
 ## Contribution
 Made with thought-provoking energy by Javarrisb
