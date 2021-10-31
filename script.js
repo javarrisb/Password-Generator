@@ -1,4 +1,5 @@
 // Assignment code here
+// character variabes to be used in password
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numeric = "0123456789";
@@ -13,9 +14,9 @@ var generateBtn = document.querySelector("#generate");
 
 
 function generatePassword() {
-
+  // Will be used to generate new password
   var newPassword = "";
-
+  // Add funciton inside of function
   function getLength() {
     var length = Number(prompt("Choose the length of characters for each password. minimum 8, maximum 128"));
     if (length < 8 || length > 128) {
